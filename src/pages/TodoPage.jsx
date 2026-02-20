@@ -8,8 +8,8 @@ import {
 import { getTodayReportService } from "../services/reportService";
 
 import DeleteModal from "../components/DeleteModal";
-import TodoList from "../components/todoList";
-import TodoForm from "../components/todoForm";
+import TodoList from "../components/TodoList";
+import TodoForm from "../components/TodoForm";
 
 export default function TodoPage() {
   const [todos, setTodos] = useState([]);
